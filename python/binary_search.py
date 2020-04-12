@@ -13,7 +13,9 @@ class BinarySearch:
     def Solution1(self, searchValue ):
         print("Starting Solution 1 - Brute Force Solution - O(n^4)")
         start = time.time()
+        # already sorted array
         sortedArray = [2, 4, 8, 9, 22, 28, 29, 33, 35, 44, 49, 88, 105, 255, 664, 888, 1111]
+        
         low = 0;
         high = len(sortedArray) - 1
         while low <= high:
@@ -22,14 +24,10 @@ class BinarySearch:
             b = searchValue
             if sortedArray[mid] == searchValue:
                 return mid
-            elif sortedArray[mid] < searchValue:  # increase the minimum - left to right
+            elif sortedArray[mid] < searchValue:  # increase the minimum - drop left chunk including  mid
                 low = mid + 1
-            elif sortedArray[mid] > searchValue: # decrease the max - right to left
+            elif sortedArray[mid] > searchValue: # decrease the max - drop the right chunk including  mid
                 high = mid - 1
-
-
-
-
 
 
 
