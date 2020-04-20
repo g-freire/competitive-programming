@@ -8,7 +8,7 @@ Optimization example from the Crack the Coding Interview.
 
 The solutions goes to O(n'4) to a Parallel O(n^2)
 
-Problem - Print all positive integer solutions to the equation a3 + b3 = c3 + d3
+Problem - Print all positive integer solutions to the equation a^3 + b^3 = c^3 + d^3
 where a,b,c,d are integers between 1 and 1000.
 
 """
