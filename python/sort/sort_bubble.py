@@ -6,7 +6,7 @@ import time
 """
 BUBBLE SORT IMPLEMENTATION
 ADVANTAGES: simplicity, didatic
-DESADVANTAGES:    slow, 0(n^2)
+DISADVANTAGES:    slow, 0(n^2)
 """
 
 

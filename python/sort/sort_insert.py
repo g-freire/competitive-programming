@@ -10,7 +10,7 @@ Builds the sorted list one element at a time by comparing each item with the res
 Some quicksort implementations even use insertion sort internally if the list is small enough to provide a faster overall implementation. 
 
 ADVANTAGES: simplicity, good for small lists
-DESADVANTAGES:    slow for big lists, 0(n^2)
+DISADVANTAGES:    slow for big lists, 0(n^2)
 """
 
 
