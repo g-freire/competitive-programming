@@ -1,0 +1,3 @@
+C:/Users/gfreire/CLionProjects/LINKED_LIST/cmake-build-debug/CMakeFiles/LINKED_LIST.dir
+C:/Users/gfreire/CLionProjects/LINKED_LIST/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/gfreire/CLionProjects/LINKED_LIST/cmake-build-debug/CMakeFiles/rebuild_cache.dir
