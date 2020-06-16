@@ -119,6 +119,4 @@ void reinicializarLista(LISTA* l){
 }
 
 int main() {
-    inicializarLista([1,2,3,5]);
-
 }
