@@ -1,6 +1,16 @@
 # https://www.techiedelight.com/breadth-first-search/
+"""
 
-from collections import deque
+STEPS
+1) Create graph structure
+2) Create unconnected check loop
+3) Create BFS recursive algorithm
+    - import queue
+    - visit, add to queue, while q, pop q, add visited childs   to queue
+
+reference:https://www.techiedelight.com/depth-first-search-dfs-vs-breadth-first-search-bfs/
+"""
+
 
 # class to represent a graph object:
 class Graph :
@@ -14,6 +24,7 @@ class Graph :
             self.adjList[src].append(dest)
             self.adjList[dest].append(src)
 
+from collections import deque
 
 # Perform BFS on graph starting from vertex v
 def BFS(graph, v, discovered) :
