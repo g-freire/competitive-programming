@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6877b5-be00-4e4c-a71c-0c8b4615f9bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/linked_lists.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../python/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/dequeued.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../python/sandbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/sandbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linked_lists.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked_lists.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

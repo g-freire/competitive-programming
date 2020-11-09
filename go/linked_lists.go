@@ -5,6 +5,18 @@ import "fmt"
 // SINGLE LINKED LIST
 // https://golangbyexample.com/singly-linked-list-in-golang/
 
+type LinkedList interface{
+	Count()
+	Traverse()
+	AddHead()
+	AddTail()
+	RemoveHead()
+	RemoveTail()
+	GetItem()
+	SetItem()
+	Reverse()
+}
+
 type node struct {
 	name string
 	next *node
@@ -30,14 +42,14 @@ func (s *singleList) Traverse() error{
 	}else{
 		current := s.head
 		for current != nil{
-			fmt.Print(current.name, " - ")
+			fmt.Print(current.name, " -> ")
 			current = current.next
 		}
 	}
 	return nil
 }
 
-func (s *singleList) AddFront(name string) {
+func (s *singleList) AddHead(name string) {
 	node := &node{
 		name: name,
 	}
@@ -51,7 +63,7 @@ func (s *singleList) AddFront(name string) {
 	return
 }
 
-func (s *singleList) AddBack(name string){
+func (s *singleList) AddTail(name string){
 	node := &node{
 		name: name,
 	}
@@ -74,16 +86,16 @@ func main() {
 
 	//ADD HEAD METHOD
 	fmt.Printf("Size: %d\n", singleList.Size())
-	fmt.Printf("AddFront: A\n")
-	singleList.AddFront("A")
-	fmt.Printf("AddFront: B\n")
-	singleList.AddFront("B")
+	fmt.Printf("AddHead: A\n")
+	singleList.AddHead("A")
+	fmt.Printf("AddHead: B\n")
+	singleList.AddHead("B")
 	fmt.Printf("Size: %d\n", singleList.Size())
 
 
 	//ADD TAIL METHOD
-	fmt.Printf("AddBack: C\n")
-	singleList.AddBack("C")
+	fmt.Printf("AddTail: C\n")
+	singleList.AddTail("C")
 	err := singleList.Traverse()
 	if err != nil {
 		fmt.Println(err.Error())
