@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6877b5-be00-4e4c-a71c-0c8b4615f9bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/linked_lists2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked_lists3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linked_lists.go" beforeDir="false" afterPath="$PROJECT_DIR$/linked_lists.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +39,28 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gfreire\Desktop\CODE\competitive-programming\go" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build linked_lists3.go">
+    <configuration name="go build linked_lists2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/linked_lists2.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build linked_lists3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/linked_lists3.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build linked_lists.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -47,6 +71,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build linked_lists3.go" />
+        <item itemvalue="Go Build.go build linked_lists2.go" />
         <item itemvalue="Go Build.go build linked_lists.go" />
       </list>
     </recent_temporary>
@@ -56,37 +82,69 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="639" height="238" key="GridCell.Tab.0.bottom" timestamp="1604886909298">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="524" y="135" key="#xdebugger.evaluate" timestamp="1610427971208">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="639" height="238" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604886909298" />
-    <state width="639" height="238" key="GridCell.Tab.0.center" timestamp="1604886909298">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="524" y="135" key="#xdebugger.evaluate/0.0.1536.864@0.0.1536.864" timestamp="1610427971208" />
+    <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1604958866057">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="639" height="238" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604886909298" />
-    <state width="639" height="238" key="GridCell.Tab.0.left" timestamp="1604886909298">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604958866057" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom" timestamp="1610429762018">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="639" height="238" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604886909298" />
-    <state width="639" height="238" key="GridCell.Tab.0.right" timestamp="1604886909298">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1323" height="89" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604888148966" />
+    <state width="1493" height="187" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1610429762018" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center" timestamp="1610429762017">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="639" height="238" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604886909298" />
-    <state width="639" height="238" key="GridCell.Tab.1.bottom" timestamp="1604886909298">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1323" height="89" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604888148966" />
+    <state width="1493" height="187" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1610429762017" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left" timestamp="1610429762017">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1323" height="89" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604888148966" />
+    <state width="1493" height="187" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1610429762017" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right" timestamp="1610429762018">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1323" height="89" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604888148966" />
+    <state width="1493" height="187" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1610429762018" />
+    <state width="1493" height="187" key="GridCell.Tab.1.bottom" timestamp="1610429761775">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="639" height="238" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604886909298" />
-    <state width="639" height="238" key="GridCell.Tab.1.center" timestamp="1604886909298">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1493" height="187" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1610429761775" />
+    <state width="1493" height="187" key="GridCell.Tab.1.center" timestamp="1610429761775">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="639" height="238" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1604886909298" />
-    <state width="639" height="238" key="GridCell.Tab.1.left" timestamp="1604886909298">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1493" height="187" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1610429761775" />
+    <state width="1493" height="187" key="GridCell.Tab.1.left" timestamp="1610429761775">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="639" height="238" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1604886909298" />
-    <state width="639" height="238" key="GridCell.Tab.1.right" timestamp="1604886909298">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1493" height="187" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1610429761775" />
+    <state width="1493" height="187" key="GridCell.Tab.1.right" timestamp="1610429761775">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="639" height="238" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1604886909298" />
+    <state width="1493" height="187" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1610429761775" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/linked_lists2.go</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/linked_lists2.go</url>
+          <line>48</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
